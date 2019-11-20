@@ -8,9 +8,9 @@ app.on('ready', () => {
 		.then(credentials => {
 			if (credentials && Date.parse(credentials.Expiration) > new Date()) {
 				return credentials;
+			} else {
+				return getCredentials();
 			}
-
-			return getCredentials();
 		})
 		.then(JSON.stringify)
 		.then(console.log)

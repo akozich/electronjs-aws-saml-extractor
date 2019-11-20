@@ -24,7 +24,7 @@ function initialize() {
 				width: 400,
 				minWidth: 400,
 				height: 800,
-				title: app.getName()
+				title: app.name
 			};
 
 			mainWindow = new BrowserWindow(windowOptions);

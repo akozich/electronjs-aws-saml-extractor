@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs');
-const tempraryCredentialLocation = require('./options').config_file;
+const tempraryCredentialLocation = require('./options').configFile;
 
 /**
  *

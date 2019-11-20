@@ -1,7 +1,7 @@
 {
 	"name": "electronjs-aws-saml-extractor",
 	"productName": "electronjs-aws-saml-extractor",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "SSO Provider for the AWS CLI",
 	"license": "MIT",
 	"repository": "https://github.com/akozich/electronjs-aws-saml-extractor.git",
